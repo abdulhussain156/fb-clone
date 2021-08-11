@@ -1,0 +1,154 @@
+.login {
+  background-color: #f1f2f5;
+  height: 100%;
+  width: 100%;
+}
+
+.login__box {
+  background-color: white;
+  width: 350px;
+  height: 475px;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  padding: 15px 20px;
+  border-radius: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.login__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.login__form > input {
+  font-size: 15px;
+  margin-top: 5px;
+  padding-left: 25px;
+  width: 90%;
+  height: 40px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  border-color: lightgray;
+  border-style: solid;
+}
+.logo1 {
+  height: 100px;
+  object-fit: contain;
+  margin: 5px;
+}
+.logo2 {
+  height: 50px;
+  object-fit: contain;
+  margin: 5px;
+}
+.login__form > .login__button {
+  background-color: #1877f2;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  font-size: 15px;
+  line-height: 30px;
+  padding: 10px 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  width: 100%;
+  cursor: pointer;
+}
+.login__button:hover {
+  color: #166fe5;
+  background-color: grey;
+}
+.login__form > .login__register {
+  background-color: #42b72a;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  font-size: 13px;
+  line-height: 30px;
+  padding: 10px 10px;
+  width: 70%;
+  cursor: pointer;
+}
+.login__register:hover {
+  color: rgb(101, 185, 77);
+  background-color: grey;
+}
+.line {
+  align-items: center;
+  border-bottom: 1px solid #dadde1;
+  margin: 20px 16px;
+  width: 100%;
+}
+
+.register__modal {
+  background-color: white;
+  width: 400px;
+  height: 500px;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  padding: 15px 20px;
+  border-radius: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+.register__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.register__form > input {
+  font-size: 15px;
+  margin-top: 5px;
+  padding-left: 20px;
+  width: 90%;
+  height: 40px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  border-color: lightgray;
+  border-style: solid;
+}
+.register__form > h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  position: relative;
+  right: 100px;
+}
+.register__form > .login__register {
+  background-color: #42b72a;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  font-size: 15px;
+  line-height: 30px;
+  padding: 10px 10px;
+  width: 70%;
+  cursor: pointer;
+}
+.register__form > .login__register:hover {
+  color: rgb(101, 185, 77);
+  background-color: white;
+  border: 1px solid #42b72a;
+}
+.register__form > .login__google {
+  background-color: gray;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  font-size: 15px;
+  line-height: 30px;
+  padding: 10px 10px;
+  width: 70%;
+  cursor: pointer;
+}
+.register__form > .login__google:hover {
+  color: black;
+  background-color: lightgray;
+  border: 1px solid gray;
+}
